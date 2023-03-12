@@ -1,0 +1,24 @@
+R25.xls:
+  - workflow_name: people
+    kpis:
+      - average_age
+    charts:
+      - test_chart
+  - workflow_name: budget
+    kpis: []
+    charts:
+      - test_chart
+
+R27.xlsx:
+  - workflow_name: budget
+    kpis:
+      - moyenne
+    charts: []
+
+liste effectif.xlsx:
+  - workflow_name: people
+    kpis:
+      - Nbre_de_departs
+    charts:
+      - HF
+      - effectif_par_mois_par_pole
